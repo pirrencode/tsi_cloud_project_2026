@@ -7,7 +7,7 @@ version: 0.2
 env:
   variables:
     # Test-only values; real values are set in Elastic Beanstalk.
-    SECRET_KEY: "codebuild-test-key"
+    SECRET_KEY: "Hidsvhcdsnhilvdnvkg.cooueg"
     DEBUG: "False"
     ALLOWED_HOSTS: "*"
 
