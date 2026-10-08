@@ -14,7 +14,7 @@ env:
 phases:
   install:
     runtime-versions:
-      python: 3.11            # match your Elastic Beanstalk Python platform
+      python: 3.14            # match your Elastic Beanstalk Python platform
     commands:
       - echo "Python version:" && python --version
       - python -m pip install --upgrade pip
