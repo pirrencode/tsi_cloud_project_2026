@@ -48,8 +48,8 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "mysite.urls"          # <-- change "mysite"
-WSGI_APPLICATION = "mysite.wsgi.application"  # <-- change "mysite"
+ROOT_URLCONF = "mydjango.urls"          # <-- change "mysite"
+WSGI_APPLICATION = "mydjango.wsgi.application"  # <-- change "mysite"
 
 TEMPLATES = [
     {
